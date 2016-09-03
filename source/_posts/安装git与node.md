@@ -13,7 +13,7 @@ tags:
 3. $ git --version 查看git版本 
 
 
-# 安装nodejs
+# 安装node
 1. 先安装nodejs的多版本管理器[下载gnvm](https://github.com/Kenshin/gnvm)
 
 2. 选个文件夹保存后，在此文件夹目录里 ，按shift＋鼠标右键，点击‘在此处打开命令窗口’
@@ -30,7 +30,7 @@ tags:
 		$ gnvm update latest 更新最新版本的node
 		$ gnvm config registry TAOBAO 配置镜像源为淘宝源
 		
-*  也可不安装gnvm，直接安装一个版本的node [node中文网](http://nodejs.cn/download/releases/)，node自带了nmp.
+*  也可不安装gnvm，直接安装一个版本的node [node中文网](http://nodejs.cn/download/releases/)，node自带了npm.
 *  配置淘宝镜像源：
 		
 		$ npm config set registry https://registry.npm.taobao.org 		
